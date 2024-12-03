@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="mvvmApplication.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:mvvmApplication"
+    xmlns:View="clr-namespace:mvvmApplication.View"
+    Shell.FlyoutBehavior="Disabled"
+    Title="mvvmApplication">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate View:NewPage1}"
+        Route="NewPage1"/>
+
+</Shell>
